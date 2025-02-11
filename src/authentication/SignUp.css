@@ -1,0 +1,59 @@
+.unique-signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #BAC095; /* Light Olive Green */
+}
+
+.unique-signup-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    border: 2px solid #3D4127; /* Dark Olive Border */
+}
+
+.unique-signup-title {
+    margin-bottom: 15px;
+    color: #3D4127; /* Text color */
+}
+
+.unique-signup-input,
+.unique-signup-select {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #3D4127; /* Input Border */
+    border-radius: 5px;
+}
+
+.unique-signup-label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #3D4127;
+}
+
+.unique-signup-button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #636B2F; /* Muted Olive Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.unique-signup-button:hover {
+    background-color: #3D4127; /* Dark Olive Green */
+}
+
+.unique-signup-error {
+    color: red;
+    font-size: 14px;
+}

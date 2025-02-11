@@ -1,0 +1,17 @@
+.intern-dashboard-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #BAC095; /* Background */
+    min-height: 100vh;
+}
+
+.intern-dashboard-title {
+    color: #3D4127;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.intern-dashboard-description {
+    font-size: 16px;
+    color: #636B2F;
+}

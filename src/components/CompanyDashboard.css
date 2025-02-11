@@ -1,0 +1,17 @@
+.company-dashboard-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #D4DE95; /* Slightly Different Background */
+    min-height: 100vh;
+}
+
+.company-dashboard-title {
+    color: #3D4127;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.company-dashboard-description {
+    font-size: 16px;
+    color: #636B2F;
+}

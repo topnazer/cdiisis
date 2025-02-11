@@ -1,0 +1,103 @@
+/* Admin Dashboard Styling */
+.admin-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #BAC095; /* Background Color */
+    min-height: 100vh;
+}
+
+.admin-dashboard-title {
+    color: #3D4127;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Table Styles */
+.admin-dashboard-table {
+    width: 80%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.admin-dashboard-table th, 
+.admin-dashboard-table td {
+    padding: 12px;
+    border: 1px solid #3D4127;
+    text-align: left;
+}
+
+.admin-dashboard-table th {
+    background-color: #D4DE95;
+    color: #3D4127;
+}
+
+.admin-dashboard-table td {
+    background-color: #ffffff;
+}
+
+/* Table Row Styling */
+.admin-dashboard-row:nth-child(even) {
+    background-color: #F8F9E1;
+}
+
+/* Status Styling */
+.admin-dashboard-status {
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.admin-dashboard-status.pending {
+    color: #D4DE95;
+    background: #636B2F;
+}
+
+.admin-dashboard-status.approved {
+    color: white;
+    background: #3D4127;
+}
+
+.admin-dashboard-status.declined {
+    color: white;
+    background: #FF4D4D;
+}
+
+/* Button Styling */
+.admin-dashboard-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.admin-dashboard-approve,
+.admin-dashboard-decline {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.admin-dashboard-approve {
+    background-color: #636B2F;
+    color: white;
+}
+
+.admin-dashboard-approve:hover {
+    background-color: #3D4127;
+}
+
+.admin-dashboard-decline {
+    background-color: #FF4D4D;
+    color: white;
+}
+
+.admin-dashboard-decline:hover {
+    background-color: #D32F2F;
+}
